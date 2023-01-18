@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Source+Code+Pro:wght@400;500;600;700;900&display=swap');
+
+/* Globales */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Lacquer', cursive; */
+  font-family: 'Source Code Pro', monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.font-paint {
+  font-family: 'Lacquer', cursive;
+}
+
+.fondo-gris-1 {
+  /* background: linear-gradient(180deg, #1c262e 0%, #414d59 16.67%, #1c262e 100%); */
+  background: linear-gradient(180deg, #353E46 16.67%, #23272B 100%);
+}
+
+.fondo-gris-2 {
+  /* background: linear-gradient(180deg, #23272B 0%, #353E46 16.67%, #23272B 100%); */
+  background: linear-gradient(180deg, #23272B 16.67%, #353E46 100%);
+}
+
+.fondo-blur {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 4px 7px 15px rgba(0, 0, 0, 0.08), inset -1px 0px 22px rgba(0, 0, 0, 0.1), inset -5px -5px 12px rgba(0, 0, 0, 0.05), inset -5px -5px 12px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(75px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+}
+
+.fondo-blur-2 {
+  background: #414e58ad;
+  opacity: 0.8;
+  /* border: 1px solid rgba(255, 255, 255, 0.08); */
+  box-shadow: 4px 7px 15px rgba(0, 0, 0, 0.08), inset -1px 0px 22px rgba(0, 0, 0, 0.1), inset -5px -5px 12px rgba(0, 0, 0, 0.05), inset -5px -5px 12px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(100px);
+  border-radius: 5px;
   }
+
+.barra-statica {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  padding-bottom: 1.25rem;
+
+  background: #414e58ad;
+  opacity: 0.8;
+  /* border: 1px solid rgba(255, 255, 255, 0.08); */
+  box-shadow: 4px 7px 15px rgba(0, 0, 0, 0.08), inset -1px 0px 22px rgba(0, 0, 0, 0.1), inset -5px -5px 12px rgba(0, 0, 0, 0.05), inset -5px -5px 12px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(100px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.barra-statica > * {
+  color: #EAEAEA!important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.barra-statica li:hover > * {
+  color: #708AA0!important;
 }
