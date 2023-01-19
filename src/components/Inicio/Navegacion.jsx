@@ -1,4 +1,5 @@
 import { BiArrowFromTop, BiMenu, BiX } from "react-icons/bi";
+import Cv from "../../assets/pdf/Joel_Acosta_Curriculum.pdf";
 import { useState } from 'react'
 
 const Navegacion = () => {
@@ -27,7 +28,7 @@ const Navegacion = () => {
 
       <div className="w-1/2 lg:w-1/3">
         <h2 className="text-4xl text-gris-100">
-          <a href="/">
+          <a href="#inicio">
             <span className={fix ? 'text-gris-100' : 'text-gris-300'}>{'{'}</span>
             J
             <span className={fix ? 'text-gris-100' : 'text-azul'}>, </span>
@@ -39,13 +40,13 @@ const Navegacion = () => {
       <div className="pt-2 w-4/5 lg:w-2/3 text-xl text-gris-200 lg:block hidden">
         <nav>
           <ul className="flex justify-between w-auto">
-            <li className="hover:text-gris-100"><a href="/">INICIO</a></li>
-            <li className="hover:text-gris-100"><a href="/">SOBRE MÍ</a></li>
-            <li className="hover:text-gris-100"><a href="/">HABILIDADES</a></li>
-            <li className="hover:text-gris-100"><a href="/">PROYECTOS</a></li>
-            <li className="hover:text-gris-100"><a href="/">CONTACTO</a></li>
+            <li className="hover:text-gris-100"><a href="#inicio">INICIO</a></li>
+            <li className="hover:text-gris-100"><a href="#sobremi">SOBRE MÍ</a></li>
+            <li className="hover:text-gris-100"><a href="#habilidades">HABILIDADES</a></li>
+            <li className="hover:text-gris-100"><a href="#proyectos">PROYECTOS</a></li>
+            <li className="hover:text-gris-100"><a href="#contacto">CONTACTAME</a></li>
             <li className="hover:text-gris-100">
-              <a href="/" className="flex">
+              <a download={'Joel_Acosta_Curriculum'} href={Cv} className="flex">
                 CV
                 <span className='ml-2 text-2xl mt-1'>
                   <BiArrowFromTop />
@@ -60,7 +61,7 @@ const Navegacion = () => {
         <nav>
           <ul className="flex">
             <li className="hover:text-gris-100 text-4xl flex items-center mr-2">
-              <a href="/" className="flex">
+              <a download={'Joel_Acosta_Curriculum'} href={Cv} className="flex">
                 CV
                 <span className='ml-2 mt-1'>
                   <BiArrowFromTop />
@@ -90,11 +91,11 @@ const Navegacion = () => {
         <div className="flex-1">
           <nav className="h-full">
             <ul className="flex flex-col items-center w-auto text-2xl">
-              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="/">INICIO</a></li>
-              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="/">SOBRE MÍ</a></li>
-              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="/">HABILIDADES</a></li>
-              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="/">PROYECTOS</a></li>
-              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="/">CONTACTO</a></li>
+              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="#inicio">INICIO</a></li>
+              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="#sobremi">SOBRE MÍ</a></li>
+              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="#habilidades">HABILIDADES</a></li>
+              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="#proyectos">PROYECTOS</a></li>
+              <li className="text-gris-100 hover:text-gris-200 mb-4"><a href="#contacto">CONTACTAME</a></li>
             </ul>
           </nav>
         </div> {/* Menu */}

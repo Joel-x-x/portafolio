@@ -15,6 +15,11 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
+html {
+  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
+}
+
 .font-paint {
   font-family: 'Lacquer', cursive;
 }
