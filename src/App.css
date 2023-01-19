@@ -47,6 +47,14 @@ body {
   border-radius: 5px;
   }
 
+  .fondo-blur-3 {
+    background: #2c383fdf;
+    opacity: .9;
+    /* border: 1px solid rgba(255, 255, 255, 0.08); */
+    box-shadow: 4px 7px 15px rgba(0, 0, 0, 0.848), inset -1px 0px 22px rgba(0, 0, 0, 0.291), inset -5px -5px 12px rgba(0, 0, 0, 0.338), inset -5px -5px 12px rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(100px);
+    }
+
 .barra-statica {
   position: fixed;
   z-index: 20;
@@ -66,4 +74,42 @@ body {
 
 .barra-statica li:hover > * {
   color: #708AA0!important;
+}
+
+.descolgado:hover{
+  animation: descolgado 2s 2;
+  transform-origin: top left;
+}
+
+@media only screen and (max-width: 640px) {
+  .descolgado:hover {
+    animation:none
+  }
+}
+
+@keyframes descolgado{
+  20%,60%{
+    transform: rotate(80deg);
+  }
+  40%, 80%{
+    transform: rotate(60deg);
+    opacity: 1;    
+  }
+  100%{
+    transform: translateY(400px) rotate(60deg);
+    opacity: 0;
+  }
+}
+
+.targeta-info {
+  top: -200px;
+  transition: all .5s ease;
+}
+
+.targeta:hover > .targeta-info {
+  top: 0;
+}
+
+.footer {
+  background: url('./assets/svg/ola.svg');
 }
