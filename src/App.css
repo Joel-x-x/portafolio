@@ -81,13 +81,13 @@ html {
   color: #708AA0!important;
 }
 
-.descolgado:hover{
+.descolgado{
   animation: descolgado 2s 2;
   transform-origin: top left;
 }
 
 @media only screen and (max-width: 640px) {
-  .descolgado:hover {
+  .descolgado {
     animation:none
   }
 }

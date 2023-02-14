@@ -77,7 +77,7 @@ const Navegacion = () => {
         </nav>
       </div> {/* Menú Tablet/Telefono */}
 
-      <div className={`flex-col absolute w-96 max-w-full h-96 top-0 right-0 fondo-blur-2 ${clic ? 'hidden': 'flex'}`}>
+      <div className={`flex-col absolute w-96 max-w-full h-96 top-0 right-0 fondo-blur-3 ${clic ? 'hidden': 'flex'}`}>
         <div className="text-6xl flex justify-end pr-7 pt-5">
           <nav onClick={mostrarOcultarMenu} >
             <ul className="flex cursor-pointer">

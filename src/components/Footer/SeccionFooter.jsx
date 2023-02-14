@@ -7,7 +7,7 @@ const SeccionFooter = () => {
 
       <div className="flex justify-center items-center font-paint">
         <h2 className="text-5xl text-gris-100">
-          <a href="/">
+          <a href="#inicio">
             <span className='text-gris-300'>{'{'}</span>
             J
             <span className='text-azul'>, </span>
@@ -15,7 +15,7 @@ const SeccionFooter = () => {
             <span className='text-gris-300'>{'}'}</span>
           </a>
         </h2>
-      </div>
+      </div> {/* Logo */}
       <div className="text-gris-100 w-full md:flex justify-center mt-6 hidden font-paint">
         <nav className="md:w-2/3 w-[90%]">
           <ul className="flex justify-between w-auto">
