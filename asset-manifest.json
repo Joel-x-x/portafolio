@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.149c1ffb.css",
-    "main.js": "/portafolio/static/js/main.9a3cd838.js",
+    "main.css": "/portafolio/static/css/main.5dd26855.css",
+    "main.js": "/portafolio/static/js/main.bb8ef133.js",
     "static/media/encriptador.png": "/portafolio/static/media/encriptador.a032d6b3c675e0188a2b.png",
     "static/media/blog-cafe.png": "/portafolio/static/media/blog-cafe.cc4fb0a84a678bac68bb.png",
     "static/media/carrito.png": "/portafolio/static/media/carrito.fceb6c384c9c355e9737.png",
+    "static/media/encriptador.webp": "/portafolio/static/media/encriptador.2ee64b5a9ef37d4ed06d.webp",
+    "static/media/blog-cafe.webp": "/portafolio/static/media/blog-cafe.4e359a6acfd13cf346d3.webp",
+    "static/media/carrito.webp": "/portafolio/static/media/carrito.5fdc7c19406d8b25ce7e.webp",
     "static/media/calculadora.png": "/portafolio/static/media/calculadora.26bbf25c4b78e68c25ac.png",
     "static/media/Joel_Acosta_Curriculum.pdf": "/portafolio/static/media/Joel_Acosta_Curriculum.ded4095d885add4d9228.pdf",
     "static/media/admin-citas.png": "/portafolio/static/media/admin-citas.f0f2c22f4188bad30eda.png",
+    "static/media/calculadora.webp": "/portafolio/static/media/calculadora.b241dd16938c01a6b799.webp",
+    "static/media/admin-citas.webp": "/portafolio/static/media/admin-citas.3191cd24faa50dae3ba0.webp",
     "static/media/cara-asustada.svg": "/portafolio/static/media/cara-asustada.24fd614181192af6dcb8.svg",
     "static/media/task-list.png": "/portafolio/static/media/task-list.3af62692ff1a9ad256a8.png",
     "static/media/cara-feliz.svg": "/portafolio/static/media/cara-feliz.bbf106f13db317cb328c3245d06b79e0.svg",
+    "static/media/task-list.webp": "/portafolio/static/media/task-list.76f52b67e98b5cc73ff6.webp",
     "static/media/subrayado.svg": "/portafolio/static/media/subrayado.91c6e571454b7730ba64ea7b5f42d113.svg",
     "static/media/react-mini.svg": "/portafolio/static/media/react-mini.a197c9e996107cf988b1.svg",
     "static/media/react.svg": "/portafolio/static/media/react.30d14c48c89415d12ad55f385b76e7e5.svg",
@@ -32,11 +38,11 @@
     "static/media/css-mini.svg": "/portafolio/static/media/css-mini.c4741cedfc84a0cf2bf8.svg",
     "static/media/css.svg": "/portafolio/static/media/css.9fb8b43219b41373efde3ca625cb6a83.svg",
     "static/media/ola.svg": "/portafolio/static/media/ola.103ddfca0c8748966b70.svg",
-    "main.149c1ffb.css.map": "/portafolio/static/css/main.149c1ffb.css.map",
-    "main.9a3cd838.js.map": "/portafolio/static/js/main.9a3cd838.js.map"
+    "main.5dd26855.css.map": "/portafolio/static/css/main.5dd26855.css.map",
+    "main.bb8ef133.js.map": "/portafolio/static/js/main.bb8ef133.js.map"
   },
   "entrypoints": [
-    "static/css/main.149c1ffb.css",
-    "static/js/main.9a3cd838.js"
+    "static/css/main.5dd26855.css",
+    "static/js/main.bb8ef133.js"
   ]
 }
